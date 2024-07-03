@@ -1,7 +1,8 @@
 import os
 from datetime import datetime
-
+import sys
 import pygame as pg
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
 VERSION = "3.0"
 

@@ -55,15 +55,23 @@ class NewGame:
         self.index_list_class = LIST_CLASSES[0]
 
     def _select_guides(self, pos_mouse) -> None:
-        self._list_ethnicity_and_classes(
-            self.ethnicity[0], "dark-elf", "info_dark", pos_mouse
-        )
-        self._list_ethnicity_and_classes(
-            self.ethnicity[1], "forest-elf", "info_forest", pos_mouse
-        )
-        self._list_ethnicity_and_classes(
-            self.ethnicity[2], "grey-elf", "info_grey", pos_mouse
-        )
+        if len(self.ethnicity) > 0:
+            # Если список не пуст, выполним исходные действия
+            self._list_ethnicity_and_classes(
+                self.ethnicity[0], "dark-elf", "info_dark", pos_mouse
+            )
+        else:
+            print("Warning: ethnicity list is empty")
+
+        if len(self.ethnicity) > 1:
+            self._list_ethnicity_and_classes(
+                self.ethnicity[1], "forest-elf", "info_forest", pos_mouse
+            )
+
+        if len(self.ethnicity) > 2:
+            self._list_ethnicity_and_classes(
+                self.ethnicity[2], "grey-elf", "info_grey", pos_mouse
+            )
 
     def _return_menu(self, pos_mouse) -> None:
         if self.return_icon.rect.collidepoint(pos_mouse):

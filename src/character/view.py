@@ -1,7 +1,7 @@
 import pygame as pg
 
 from paths import FOLDERS
-from src.tools import COLORS, Obj, draw_rect, draw_status_bar, draw_texts
+from tools import COLORS, Obj, draw_rect, draw_status_bar, draw_texts
 
 
 class DrawBarStatus:

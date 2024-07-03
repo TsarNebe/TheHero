@@ -1,8 +1,8 @@
-DUELISM
-When you wield a melee weapon in one hand,
-and no other weapons,
-you gain 25% bonus damage with that weapon.
+ДУЭЛИЗМ
+Когда вы держите оружие ближнего боя в одной руке,
+и никакого другого оружия,
+вы получаете 25% дополнительного урона этим оружием.
 
-COMBAT WITH TWO WEAPONS
-When you are engaged in a two-weapon fight,
-you may occasionally land a second blow.
+БОЙ С ДВУМЯ ОРУЖИЯМИ
+Когда вы участвуете в бою с двумя оружиями,
+иногда вы можете нанести второй удар.

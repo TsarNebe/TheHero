@@ -1,11 +1,11 @@
-CONJURATION
-As a student of arcane magic,
-you possess a spellbook (or grimoire),
-that reveals the first glimpses
-of your true power.
-(receives a fixed element)
+ЗАКЛИНАНИЕ
+Будучи учеником тайной магии,
+у вас есть книга заклинаний (или гримуар),
+это открывает первые проблески
+твоей истинной силы.
+(получает фиксированный элемент)
 
-ARCANA RECOVERY
-You learned how to recover some of your
-magical energy by studying your spellbook.
-(mana regeneration)
+АРКАНА ВОССТАНОВЛЕНИЕ
+Вы узнали, как восстановить часть своих
+магическую энергию, изучив свою книгу заклинаний.
+(регенерация маны)
